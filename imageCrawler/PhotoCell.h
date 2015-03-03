@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotoCell.h
 //  imageCrawler
 //
 //  Created by Marius Horga on 2/28/15.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UICollectionViewController
+@interface PhotoCell : UICollectionViewCell
+
+@property (nonatomic) UIImageView *imageView;
 
 @end
